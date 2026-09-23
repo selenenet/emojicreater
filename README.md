@@ -22,4 +22,6 @@ https://selenenet.github.io/emojicreater/
 
 2026-09-23 更新：修正手机时间与 Discord 消息 ID 时间不一致时，目标频道的新消息被误判为旧消息的问题。现在以插件收到 `MESSAGE_CREATE` 事件的时刻计算队列有效期；插件不会主动补刷历史消息。
 
+2026-09-23 更新：修正反应请求向 Discord 手机端 HTTP 模块传入完整网址可能导致 HTTP 401 的问题。现在使用客户端 API 相对路径；不读取或保存 Token。401 与 403 在诊断中区分显示。
+
 安装本身无需将 Kettu 源码也传到 GitHub。GitHub Pages 只是提供 Kettu 下载本插件的两个静态文件。
