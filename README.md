@@ -16,4 +16,8 @@ https://selenenet.github.io/emojicreater/
 
 2026-09-23 更新：修正手机端 Discord HTTP 模块的查找与 `put(url)` 调用方式。插件仍通过 Discord 客户端模块处理认证，不读取 Token。
 
+诊断栏现在还显示最近事件的频道 ID、作者 ID、bot/Webhook 标记，以及实际保存的频道与白名单，便于排查配置没有保存或事件来源不一致的问题。不会记录消息正文。
+
+所有频道事件与目标频道事件分别计数，其他频道的消息不会覆盖目标频道的最近处理结果。
+
 安装本身无需将 Kettu 源码也传到 GitHub。GitHub Pages 只是提供 Kettu 下载本插件的两个静态文件。
