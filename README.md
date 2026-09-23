@@ -20,4 +20,6 @@ https://selenenet.github.io/emojicreater/
 
 所有频道事件与目标频道事件分别计数，其他频道的消息不会覆盖目标频道的最近处理结果。
 
+2026-09-23 更新：修正手机时间与 Discord 消息 ID 时间不一致时，目标频道的新消息被误判为旧消息的问题。现在以插件收到 `MESSAGE_CREATE` 事件的时刻计算队列有效期；插件不会主动补刷历史消息。
+
 安装本身无需将 Kettu 源码也传到 GitHub。GitHub Pages 只是提供 Kettu 下载本插件的两个静态文件。
