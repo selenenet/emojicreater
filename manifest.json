@@ -1,0 +1,12 @@
+{
+  "name": "EmojiReactor for Kettu",
+  "description": "在指定频道的新消息上按用户和方案自动添加表情。",
+  "authors": [
+    {
+      "name": "EmojiReactor contributors",
+      "id": "0"
+    }
+  ],
+  "main": "index.js",
+  "hash": "e31b8d3f90f5a567c19db5f0834f7633d3895cb603edbe3a3d83a25029e80ad3"
+}
