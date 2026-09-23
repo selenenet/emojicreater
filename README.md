@@ -12,4 +12,6 @@ https://selenenet.github.io/emojicreater/
 
 此目录不含 Discord Token、频道配置、账号资料或本机路径。请勿上传本机 `%APPDATA%\Vencord\settings`、个人导出配置或 Discord 日志。配置应由每位使用者在 Kettu 中自行填写。
 
+设置页内有诊断计数：收到事件、匹配消息、尝试请求和请求成功，以及最近一次跳过原因。更新插件后若反应未触发，先查看这几项，无需提供消息正文或 Token。
+
 安装本身无需将 Kettu 源码也传到 GitHub。GitHub Pages 只是提供 Kettu 下载本插件的两个静态文件。
