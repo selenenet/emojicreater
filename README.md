@@ -14,4 +14,6 @@ https://selenenet.github.io/emojicreater/
 
 设置页内有诊断计数：收到事件、匹配消息、尝试请求和请求成功，以及最近一次跳过原因。更新插件后若反应未触发，先查看这几项，无需提供消息正文或 Token。
 
+2026-09-23 更新：修正手机端 Discord HTTP 模块的查找与 `put(url)` 调用方式。插件仍通过 Discord 客户端模块处理认证，不读取 Token。
+
 安装本身无需将 Kettu 源码也传到 GitHub。GitHub Pages 只是提供 Kettu 下载本插件的两个静态文件。
