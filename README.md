@@ -24,4 +24,6 @@ https://selenenet.github.io/emojicreater/
 
 2026-09-23 更新：修正反应请求向 Discord 手机端 HTTP 模块传入完整网址可能导致 HTTP 401 的问题。现在使用客户端 API 相对路径；不读取或保存 Token。401 与 403 在诊断中区分显示。
 
+2026-09-23 更新：请求仍失败且没有 HTTP 状态时，诊断会显示异常类型、错误类别和字段名，方便定位手机端模块差异；不会显示原始错误、请求头、Token 或消息正文。
+
 安装本身无需将 Kettu 源码也传到 GitHub。GitHub Pages 只是提供 Kettu 下载本插件的两个静态文件。
